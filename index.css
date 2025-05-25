@@ -48,6 +48,9 @@ top: 0; left: 0; }
       font-size: 1rem; 
       z-index: 100;
     }
+    .crd{box-shadow: 0 4px 12px rgba(65,105,225,0.15);
+      border: 1px solid rgba(65,105,225,0.4); display: flex; align-items: center; justify-content: center;}
+   
     nav a:hover{
         border-color: #4169e1; 
         box-shadow: 5px 25px 14px rgba(65,105,225,0.3);
@@ -105,13 +108,13 @@ top: 0; left: 0; }
     }
     #skills .section-title{color: #000;}
 
-    .grid {
+    .grid, .crd{
       display: grid;
       gap: 1rem;
     }
     .grid .card p{font-weight: lighter;}
-
-    .card {
+    
+    .card, .crd img{
       background: #1a1a1a;
       padding: 1rem;
       border-radius: 10px;
@@ -126,13 +129,14 @@ top: 0; left: 0; }
       border: 1px solid rgba(65,105,225,0.4);
       cursor: pointer;
     }
+    .crd img{height: 25rem;}
     .card:hover{  border-color: #4169e1; 
         box-shadow: 8px 15px 20px rgba(65,105,225,0.3);
         transform: scale(1.02);
         transition: all 0.2s ease;
 
     }
-    .card img{max-width: 100px;}
+    
     .card h2{font-size: 1.5rem; margin: 1rem 0;}
 
     #about{ padding: 2rem 1 rem; background: #1a1a1a; align-items: center; text-align: center;}
@@ -207,6 +211,7 @@ top: 0; left: 0; }
         .top-bar h1 {
       font-size: 1.2rem;
       #submit{font-size: 1.4rem;}
+       .crd img{height: 15rem;}
     }}
     
     @media(max-width:484px){
@@ -214,7 +219,9 @@ top: 0; left: 0; }
       font-size: 0.9rem;
       font-weight: bolder;
       #submit{font-size: 1.4rem;}
+       .crd img{height: 12rem;}
     }
+     .crd{ display: flex; flex-direction: column;}
     nav a{
         font-size: 0.7rem;
         margin: 0 0.3rem;
@@ -224,6 +231,8 @@ top: 0; left: 0; }
     @media (max-width: 768px) 
 {
    footer{display: flex; flex-direction: column-reverse;}
+   .crd{ display: flex; flex-direction: column;}
+    .crd img{height: 12rem;}
 }
     @media (min-width: 900px) {
       .hero {
@@ -240,7 +249,7 @@ top: 0; left: 0; }
       form {
       display: grid;
       margin-top: 1rem;
-      padding: 2rem 12rem;
+      padding: 2rem 15rem;
       #contact{
         padding: 0rem 10rem;
       }
