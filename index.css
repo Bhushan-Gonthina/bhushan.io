@@ -265,7 +265,7 @@
       }
       h2{font-size: 1rem;}
       #submit{font-size: 1.2rem; padding: 0.7rem; margin-bottom: 1rem;}
-      .footl{padding-top: 1.6rem; padding-left: 5%;}
+      .footl{padding-top: 1.6rem; padding-left: 1px;}
     }
      @media(max-width:320px){
         .top-bar h1 {
@@ -273,7 +273,7 @@
       #submit{font-size: 1.4rem;}
        .crd img{height: 15rem;}
     } 
-  .footl{padding-top: 1.6rem; padding-left: 5%;}}
+  .footl{padding-top: 1.6rem; padding-left: 1px;}}
     
     @media(max-width:484px){
         .top-bar h1 {
@@ -287,7 +287,7 @@
         font-size: 0.7rem;
         margin: 0 0.3rem;
     }
-    .footl{padding-top: 1.6rem; padding-left: 5%;}
+    .footl{padding-top: 1.6rem; padding-left: 1px;}
     
 
     }
@@ -336,6 +336,7 @@
     nav a{ padding-right: 2rem;}
     }
     #submit{font-size: 1.4rem;}
+    .crd img{height: 20rem; width: 42rem;}
 }
 .pbtn{ height: 1.8rem; width: 6rem; border: #fff 1px solid; border-radius: 30px;color: #4169e1; background-color: #1a1a1a; padding-left: 5rem; 
 margin-left: 3rem;}
