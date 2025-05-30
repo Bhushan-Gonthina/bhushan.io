@@ -123,7 +123,20 @@
       border: 1px solid rgba(65,105,225,0.4);
       cursor: pointer;
     }
+    .crd{padding-bottom: 1rem;}
     .crd img{height: 25rem;}
+    .crd .case-study{ 
+      
+      font-size: medium;
+       color: #ffffff; 
+      border: 1px solid #4169e1;
+      background-color: #1a1a1a;
+    }
+    .crd img:hover ,.crd .case-study:hover{
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.02);
+      box-shadow: 0px 0px 30px rgba(65,105,225,0.3);
+    }
     .card:hover{  border-color: #4169e1; 
         box-shadow: 8px 15px 20px rgba(65,105,225,0.3);
         transform: scale(1.02);
@@ -210,6 +223,7 @@
     justify-content: flex-start;
   }
   .footl{padding-top: 1.6rem; padding-left: 5%;}
+  .crd .case-study{font-size: large;}
 }
 
     form {
@@ -288,8 +302,19 @@
         margin: 0 0.3rem;
     }
     .footl{padding-top: 1.6rem; padding-left: 1px;}
+    .crd .case-study{ padding: 0.6rem 4rem;}
     
-
+    
+    }
+    @media (min-width: 425px) and (max-width:768px){
+      .crd img{
+        height: 30rem;
+        width: 100%;
+      }
+      .crd .case-study{
+        font-size:large;
+        padding: 0.7rem 4rem;
+      }
     }
     @media (max-width: 768px) 
 {
