@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+    
+header,main,footer{
+    margin: 0 15rem;
+    max-width: 1200px;
+}
+header{
+  background-color: #fff;
+  color:#982e2e;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+main img{ 
+    width: 100%; 
+    height: auto;
+    margin:0.7rem 0 3rem 0;
+}
+
+.content{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    margin:0  2rem;
+}
+.content .process-dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .content .title{
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: bold;}
+main .content .overview{font-size: 1.2rem; font-family:Georgia, 'Times New Roman', Times, serif;color: #2b2a2a; margin-top: 0.5rem; }
+.discrption{
+    margin-top: 1.7rem;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+hr{
+    color: #fff; margin: 0.1rem 0; margin-top: 1rem;
+}
+.content .dis{
+    border-left: 3px solid #666464;
+    margin-top: 0 rem;
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.role ,.time ,.background, .challenge{
+    margin-top: 1rem;
+}
+.process,.challeneges{
+    margin-top: 0.5rem;
+}
+
+p{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1.4rem;
+}
+.process-img{
+    width: 70%;
+}
+.vid{
+    width: 100%;
+    height: auto;
+}
+.vid video{
+    width: 100%;
+    height: 30rem;
+}
+
+
+.foot{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2a2a;
+    color: #fff;
+    padding: 3rem 0rem;
+
+}
+.foot h4{
+    font-size: x-large;
+}
+.foot  a{ color: #fff;}
+
+
+
+
+
+@media (max-width: 768px){
+     header,main,footer{
+        margin: 0 0.4rem;
+        max-width: 100%;
+     }
+     header{
+        margin-top: 0.6rem;
+     }
+     .content .dis{
+    margin-top: 0.6rem;
+    color: #000;
+    font-size: 1.4rem;
+    } 
+    main img{ 
+    width: 100%; 
+    height: auto;
+}
+    main .content .title{
+    font-size: 1.7rem;}
+    main .content .overview{margin-top: 0.1rem; }
+    p{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1.1rem;
+}
+.process-img{
+    width: 95%;
+}
+.vid video{
+    width: 100%;
+    height: 18rem;
+}
+.foot h4{
+    font-size:large;
+}
+
+}

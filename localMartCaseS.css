@@ -29,6 +29,7 @@ main img{
     height: auto;
     margin:0.7rem 0 3rem 0;
 }
+
 .content{
     margin-top: 1rem;
     display: flex;
@@ -79,8 +80,30 @@ p{
 .process-img{
     width: 70%;
 }
+.vid{
+    width: 100%;
+    height: auto;
+}
+.vid video{
+    width: 100%;
+    height: 30rem;
+}
 
 
+.foot{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2a2a;
+    color: #fff;
+    padding: 3rem 0rem;
+
+}
+.foot h4{
+    font-size: x-large;
+}
+.foot  a{ color: #fff;}
 
 
 
@@ -88,7 +111,7 @@ p{
 
 @media (max-width: 768px){
      header,main,footer{
-         margin: 0 0.4rem;
+        margin: 0 0.4rem;
         max-width: 100%;
      }
      header{
@@ -114,6 +137,13 @@ p{
 }
 .process-img{
     width: 95%;
+}
+.vid video{
+    width: 100%;
+    height: 18rem;
+}
+.foot h4{
+    font-size:large;
 }
 
 }
